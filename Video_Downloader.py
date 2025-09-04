@@ -1,3 +1,10 @@
+""" to use this program you have to have yt-dlp you can clone it from the official
+ytdlp github and you also need ffmpeg for media formatting you can get it from the official ffmpeg 
+tools website 
+You can also ask chat gpt how to use it """
+
+
+
 import os
 import subprocess
 import threading
@@ -439,3 +446,4 @@ if __name__ == "__main__":
     root = ttk.Window(themename="darkly")
     app = YTDownloaderApp(root)
     root.mainloop()
+
